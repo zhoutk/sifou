@@ -1,1 +1,5 @@
 **/.DS_Store
+**/node_moudules
+**/*.js
+**/*.js.map
+old_*
