@@ -1,5 +1,6 @@
 **/.DS_Store
-**/node_moudules
+**/node_modules/
 **/*.js
 **/*.js.map
 old_*
+**/yarn.lock
