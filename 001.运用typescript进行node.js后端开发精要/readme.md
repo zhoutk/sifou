@@ -116,6 +116,11 @@ let printData = function(err: any, data: string): void {
 let doAjax = function (data: string, callback: Function): void {
     callback(null, data)
 }
+//我们习以为常的使用方式
+doAjax('hello', function(result){
+    doAjax(result)
+})
+//真正理解了函数是一等公民后，你会这样用
 doAjax('hello', printData)
 ``` 
 ### 异步处理中的经验分享
