@@ -117,8 +117,8 @@ let doAjax = function (data: string, callback: Function): void {
     callback(null, data)
 }
 //我们习以为常的使用方式
-doAjax('hello', function(result){
-    doAjax(result)
+doAjax('hello', function(err, result){
+    printData(null, result)
 })
 //真正理解了函数是一等公民后，你会这样用
 doAjax('hello', printData)
