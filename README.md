@@ -1,6 +1,6 @@
 # 视频讲座
 - 个人思否（segmentfoult.com）讲堂资料集合。
-- 个人博客：https://segmentfault.com/u/zhoutk
+- 个人博客：https://segmentfault.com/blog/zhoutk
 ## 目录结构
 一个讲座一个目录，其中包括视频、课件和代码等相关资料。
 ### Typescript系统
