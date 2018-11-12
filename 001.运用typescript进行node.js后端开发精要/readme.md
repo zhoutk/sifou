@@ -153,4 +153,4 @@ let p = Promise.promisify(pf);
 https://github.com/zhoutk/sifou
 
 
-  [1]: https://segmentfault.com/l/1500000016954243?r=bPcCat
+  [1]: https://segmentfault.com/l/1500000016954243?r=bPPDLn
