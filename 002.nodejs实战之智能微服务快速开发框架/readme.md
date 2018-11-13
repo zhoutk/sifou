@@ -89,26 +89,26 @@ gels -- 凝胶，希冀该项目能成为联结设计、开发，前端、后端
 
 ```
 ├── package.json
-├── src                             //源代码目录
-│   ├── app.ts                      //koa配置及启动
-│   ├── common						//通用函数或元素目录
+├── src                              //源代码目录
+│   ├── app.ts                       //koa配置及启动
+│   ├── common                       //通用函数或元素目录
 │   │   ├── globUtils.ts 			
-│   ├── config 						//配置文件目录
+│   ├── config                       //配置文件目录
 │   │   ├── configs.ts
-│   ├── db 							//数据封装目录
+│   ├── db                           //数据封装目录
 │   │   ├── baseDao.ts
-│   ├── globals.d.ts 				//全局声明定义文件
-│   ├── index.ts 					//运行入口
-│   ├── inits 						//启动初始化配置目录
+│   ├── globals.d.ts                 //全局声明定义文件
+│   ├── index.ts                     //运行入口
+│   ├── inits                        //启动初始化配置目录
 │   │   ├── global.ts
 │   │   ├── index.ts
 │   │   ├── initDirectory.ts
-│   ├── middlewares 				//中间件目录
+│   ├── middlewares                  //中间件目录
 │   │   ├── globalError.ts
 │   │   ├── logger.ts
 │   │   ├── router
 │   │   └── session.ts
-│   └── routers 					//路由配置目录
+│   └── routers                      //路由配置目录
 │       ├── index.ts
 │       └── router_rs.ts
 ├── tsconfig.json
