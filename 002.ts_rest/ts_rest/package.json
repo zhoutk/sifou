@@ -15,9 +15,13 @@
   "devDependencies": {
     "@types/bluebird": "^3.5.24",
     "@types/bluebird-global": "^3.5.9",
+    "@types/cli-color": "^0.3.29",
+    "@types/jsonwebtoken": "^8.3.0",
     "@types/koa": "^2.0.46",
     "@types/koa-router": "^7.0.33",
     "@types/lodash": "^4.14.118",
+    "@types/log4js": "^2.3.5",
+    "@types/mysql2": "types/mysql2",
     "@types/node": "^10.12.3",
     "nodemon": "^1.18.6",
     "tslint": "^5.11.0",
@@ -25,9 +29,13 @@
   },
   "dependencies": {
     "bluebird": "^3.5.3",
+    "cli-color": "^1.4.0",
+    "jsonwebtoken": "^8.4.0",
     "koa": "^2.6.2",
     "koa-body": "^4.0.4",
     "koa-router": "^7.4.0",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "log4js": "^3.0.6",
+    "mysql2": "^1.6.4"
   }
 }

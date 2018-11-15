@@ -4,7 +4,7 @@ import appIniter from './app'
 (async () => {
     globIniter.init()
     let app = await appIniter.init()
-    app.listen(5000, () => {
-        console.log('rest server listen on 5000.')
+    app.listen(G.CONFIGS.port, () => {
+        G.logger.info('√ rest server listen on 5000.')
     })
 })()

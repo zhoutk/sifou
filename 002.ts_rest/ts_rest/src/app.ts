@@ -3,15 +3,16 @@ import * as Koa from 'koa'
 export default {
     async init () {
         const app = new Koa()
-        app.proxy = true
         const middlewares = [
+            'logger',
+            'session',
             'bodyParser',
-            ['router', app]
+            'router'
         ]
-        for (let n of middlewares) {
-            const middles = await this.loadMiddleware.apply(null, [].concat(n))
-            if (middles) {
-                for (let m of [].concat(middles)) {
+        for ( let n of middlewares) {
+            const middle = await this.loadMiddleware.apply(null, [].concat(n))
+            if (middle) {
+                for (let m of [].concat(middle)) {
                     m && app.use.apply(app, [].concat(m))
                 }
             }
@@ -19,7 +20,9 @@ export default {
         return app
     },
     async loadMiddleware(name, ...args) {
-        const middleware = require(`./middlewares/${name}`).default
-        return middleware && await middleware.apply(null, args) || async function (ctx, next) { await next() }
+        const middlware = require(`./middlewares/${name}`).default
+        return middlware && await middlware.apply(null, args) || async function (ctx, next) {
+            await next()
+        }
     }
 }
