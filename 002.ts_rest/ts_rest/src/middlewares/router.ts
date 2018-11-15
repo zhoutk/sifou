@@ -21,6 +21,8 @@ export default () => {
         if (id !== undefined)
             params.id = id
         let {fields, ...restParams} = params
+        if (fields !== undefined)
+            fields = [].concat(fields)
 
         ctx.body = await new BaseDao(tableName)[METHODS[method]](restParams, fields)
     }
