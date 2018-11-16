@@ -4,3 +4,4 @@
 **/*.js.map
 old_*
 **/yarn.lock
+**/~$*.pptx
