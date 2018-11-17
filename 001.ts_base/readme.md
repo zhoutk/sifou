@@ -152,8 +152,7 @@ let p = Promise.promisify(pf);
 ## 相关资源
 讲座资料：https://github.com/zhoutk/sifou  
 关联项目：https://github.com/zhoutk/gels  
-思否博客：https://segmentfault.com/blog/zhoutk  
-个人博客：https://github.com/zhoutk/blog  
+个人博客：https://segmentfault.com/blog/zhoutk  
 
 ## 相关视频课程
  
