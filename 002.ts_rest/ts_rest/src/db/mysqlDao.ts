@@ -72,14 +72,14 @@ export default class MysqlDao implements IDao {
             pool.getConnection((err, connection) => {
                 if (err) {
                     reject(G.jsResponse(800, 'get database connection error.'))
-                    console.log('')
+                    G.logger.error('get database connection error. message: ' + err.message)
                 } else {
                     connection.query(sql, values, (err, result) => {
                         connection.release()
                         let v = values ? '_Values_ : ' + JSON.stringify(values) : ''
                         if (err) {
                             reject(G.jsResponse(801, 'database query error.'))
-                            console.log('')
+                            G.logger.error('database query error. message: ' + err.message)
                         } else {
                             resolve(G.jsResponse(200, 'database query success.', result))
                             G.logger.debug('_Sql_ : ' + sql + v)
