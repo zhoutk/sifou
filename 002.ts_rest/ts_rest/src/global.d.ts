@@ -7,7 +7,6 @@ type CFG = typeof config
 
 declare global {
     var G: {
-        PAGESIZE: 10,
         L: LODASH,
         CONFIGS: CFG,
         logger: Logger,

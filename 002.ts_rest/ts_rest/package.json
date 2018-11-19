@@ -21,6 +21,7 @@
     "@types/koa-router": "^7.0.33",
     "@types/lodash": "^4.14.118",
     "@types/log4js": "^2.3.5",
+    "@types/mysql": "types/mysql",
     "@types/mysql2": "types/mysql2",
     "@types/node": "^10.12.3",
     "nodemon": "^1.18.6",

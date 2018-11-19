@@ -5,8 +5,8 @@ export default {
         const app = new Koa()
         const middlewares = [
             'logger',
-            'session',
             'bodyParser',
+            'session',
             'router'
         ]
         for ( let n of middlewares) {
