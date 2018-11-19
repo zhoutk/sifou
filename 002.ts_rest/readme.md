@@ -349,11 +349,25 @@ gels -- 凝胶，希冀该项目能成为联结设计、开发，前端、后端
 ## 项目地址
 凝胶（gels）项目： https://github.com/zhoutk/gels
 
+## 视频课程地址
+
+[nodejs实战之智能微服务快速开发框架][2]  
+视频介绍： 
+- 成熟项目经验，经过总结、提炼、精简、重构，带领大家一步步实现一个智能微服务框架，这是一个完整的实用项目从无到有的实现过程。
+- 课程内容与结构经过精心准备，设计合理、节奏紧凑、内容翔实。真实再现了思考、编码、调试、除    错的整个开发过程。
+- 购置了新的录屏软件和录音设备，去除了上个视频中的杂音，清晰度更高，视频比较长，有三个小时。  
+
+## 相关资源
+讲座资料：https://github.com/zhoutk/sifou  
+关联项目：https://github.com/zhoutk/gels  
+个人博客：https://segmentfault.com/blog/zhoutk  
+
 ## 相关视频课程
  
-[运用typescript进行node.js后端开发精要][1]  
-[nodejs实战之智能微服务快速开发框架][1]  
+[运用typescript进行node.js后端开发精要][1]
 
 
-  [1]: https://segmentfault.com/l/1500000016954243?r=bPPDLn
+ [1]: https://segmentfault.com/l/1500000016954243
+ [2]: https://segmentfault.com/l/1500000017034959
+
 
