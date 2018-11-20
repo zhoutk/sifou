@@ -80,6 +80,7 @@ export default class MysqlDao implements IDao {
                         if (err) {
                             reject(G.jsResponse(801, 'database query error.'))
                             G.logger.error('database query error. message: ' + err.message)
+                            G.logger.debug('Error_Sql_ : ' + sql + v)
                         } else {
                             resolve(G.jsResponse(200, 'database query success.', result))
                             G.logger.debug('_Sql_ : ' + sql + v)
