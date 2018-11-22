@@ -1,15 +1,3 @@
-> 相关视频： 
-
-- [运用typescript进行node.js后端开发精要][1] 
-- [nodejs实战之智能微服务快速开发框架][2] 
-
-
-## 特点
-- 成熟项目经验，经过总结、提炼、精简、重构，实现一个智能查询。  
-- 课程内容与结构经过精心准备，设计合理、节奏紧凑、内容翔实。
-- 真实再现了思考、编码、调试、除错的整个开发过程。  
-
-
 ## 项目介绍
 这是标准数据库封装的上半部分，智能查询（JSON-ORM）的实现。
 
@@ -278,15 +266,15 @@
     ```
 
 ## 相关项目地址
-凝胶（gels）项目： https://github.com/zhoutk/gels
-视频讲座资料： https://github.com/zhoutk/sifou
-个人博客： https://github.com/zhoutk/blog
+凝胶（gels）项目： https://github.com/zhoutk/gels  
+视频讲座资料： https://github.com/zhoutk/sifou  
+个人博客： https://github.com/zhoutk/blog  
 
 ## 相关视频课程
  
-[运用typescript进行node.js后端开发精要][1]  
-[nodejs实战之智能微服务快速开发框架][2] 
-[JSON-ORM（对象关系映射）设计与实现][3] 
+[运用typescript进行node.js后端开发精要][1]   
+[nodejs实战之智能微服务快速开发框架][2]   
+[JSON-ORM（对象关系映射）设计与实现][3]   
 
 
   [1]: https://segmentfault.com/l/1500000016954243
