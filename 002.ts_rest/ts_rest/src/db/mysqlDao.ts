@@ -78,7 +78,7 @@ export default class MysqlDao implements IDao {
                         connection.release()
                         let v = values ? '_Values_ : ' + JSON.stringify(values) : ''
                         if (err) {
-                            reject(G.jsResponse(801, 'database query error.'))
+                            reject(G.jsResponse(801, 'database query error. message: ' + err.message))
                             G.logger.error('database query error. message: ' + err.message)
                             G.logger.debug('Error_Sql_ : ' + sql + v)
                         } else {
