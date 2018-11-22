@@ -6,5 +6,5 @@
 ### Typescript系列
 - [x] [1.如何学习一门计算机编程语言--typescript](https://github.com/zhoutk/sifou/tree/master/001.ts_base)
 - [x] [2.nodejs实战之智能微服务快速开发框架--restful api](https://github.com/zhoutk/sifou/tree/master/002.ts_rest)
-- [x] [3.JSON-ORM（对象关系映射）设计与实现--mysql智能查询](https://github.com/zhoutk/sifou/tree/master/003.ts_mysql_01)
-- [ ] [4.nodejs实战之通用数据库操作封装下--mysql高级功能](https://github.com/zhoutk/sifou/tree/master/004.ts_mysql_02)
+- [x] [3.JSON-ORM（对象关系映射）设计与实现--mysql智能查询](https://github.com/zhoutk/sifou/tree/master/003.ts_mysql_1)
+- [ ] [4.nodejs实战之通用数据库操作封装下--mysql高级功能](https://github.com/zhoutk/sifou/tree/master/004.ts_mysql_2)
