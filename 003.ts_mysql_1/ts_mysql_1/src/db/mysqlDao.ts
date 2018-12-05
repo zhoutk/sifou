@@ -1,6 +1,5 @@
 import { createPool, PoolOptions} from 'mysql2'
 import IDao from './idao'
-import { listenerCount } from 'cluster';
 
 const OPMETHODS = {
     Insert: 'INSERT INTO ?? SET ?',
